@@ -31,10 +31,10 @@ deps-linux:
 .PHONY: help
 help:
 	@echo "Makefile commands:"
-	@echo "  init       - Create build directory"
-	@echo "  clean      - Remove build directory"
-	@echo "  build      - Build the project"
-	@echo "  run        - Run the project"
-	@echo "  deps-mac   - Install dependencies for macOS"
-	@echo "  deps-linux - Install dependencies for Linux"
-	@echo "  help       - Show this help message"
+	@echo "  init        - Create build directory"
+	@echo "  clean       - Remove build directory"
+	@echo "  build       - Build the project"
+	@echo "  run         - Run the project"
+	@echo "  deps-mac    - Install dependencies for macOS"
+	@echo "  deps-linux  - Install dependencies for Linux"
+	@echo "  help        - Show this help message"
