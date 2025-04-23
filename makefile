@@ -4,6 +4,8 @@ init:
 
 .PHONY: clean
 clean:
+	@rm -rf .DS_Store
+	@rm -rf src/.DS_Store
 	@rm -rf build
 
 .PHONY: build
@@ -17,11 +19,13 @@ run:
 .PHONY: deps-mac
 deps-mac:
 	@brew install cmake
+	@brew install ripgrep
 	@brew install wxwidgets
 
 .PHONY: deps-linux
 deps-linux:
 	@sudo apt-get install cmake
+	@sudo apt-get install ripgrep
 	@sudo apt-get install libwxgtk3.0-dev
 
 .PHONY: help
