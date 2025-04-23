@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(FzF VERSION 1.0 LANGUAGES CXX) 
+project(fzf VERSION 1.0 LANGUAGES CXX) 
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -27,9 +27,9 @@ include_directories(
     
 )
 
-add_executable(FzF ${PROJECT_SOURCES}) 
+add_executable(fzf ${PROJECT_SOURCES}) 
 
-target_link_libraries(FzF ${wxWidgets_LIBRARIES})
+target_link_libraries(fzf ${wxWidgets_LIBRARIES})
 
-message(STATUS "Configured FzF project")
+message(STATUS "Configured fzf project")
 message(STATUS "Using wxWidgets: ${wxWidgets_LIBRARIES}")

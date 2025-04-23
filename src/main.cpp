@@ -12,7 +12,7 @@ bool MyApp::OnInit() {
     if (!wxApp::OnInit())
         return false;
 
-    Gui *frame = new Gui(wxT("Ripgrep Frontend"));
+    Gui *frame = new Gui(wxT("fzf"));
     frame->Show(true);
 
     return true; 

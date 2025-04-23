@@ -14,7 +14,7 @@ build: clean init
 
 .PHONY: run
 run:
-	@cd build && ./FzF
+	@cd build && ./fzf
 
 .PHONY: deps-mac
 deps-mac:
